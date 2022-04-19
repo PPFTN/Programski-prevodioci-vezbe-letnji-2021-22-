@@ -1,10 +1,11 @@
-//OPIS: switch sa break bez default
-void main() {
-    int state;
-    int x;
-    state = 5;
-    switch(state) {
-	case 1: x = 1; break;
-	case 2: { x = 5;} break;
-    }
+//OPIS: branch sa parametrom
+int main(int h) {
+    int a;
+    branch ( h ; 1 , 3 , 5 ) 
+        first a = a + 1;
+        second a = a + 3;
+        third a = a + 5;
+        otherwise a = a - 3;
 }
+
+  

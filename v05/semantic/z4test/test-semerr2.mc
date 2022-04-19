@@ -1,13 +1,11 @@
-//OPIS: tipovi se ne poklapaju
-void main() {
-    int state;
-    int x;
-    state = 5;
-    switch(state) {
-	case 1: x = 1; break;
-	case 2: { x = 5;} break;
-	case 24u: { x = 5;} break;
-	case 4: { x = 5;} break;
-	default: x = 10;
-    }
+//OPIS: branch tipovima koji se ne poklapaju
+int main() {
+    int a;
+    branch ( h ; 1 , 3u , 5 ) 
+        first a = a + 1;
+        second a = a + 3;
+        third a = a + 5;
+        otherwise a = a - 3;
 }
+
+  

@@ -1,13 +1,11 @@
-//OPIS: dva sita case
-void main() {
-    int state;
-    int x;
-    state = 5;
-    switch(state) {
-	case 1: x = 1; break;
-	case 2: { x = 5;} break;
-	case 2: { x = 5;} break;
-	case 4: { x = 5;} break;
-	default: x = 10;
-    }
+//OPIS: branch sa promenljivom koja nije deklarisana
+int main() {
+    int a;
+    branch ( h ; 1 , 3 , 5 ) 
+        first a = a + 1;
+        second a = a + 3;
+        third a = a + 5;
+        otherwise a = a - 3;
 }
+
+  
