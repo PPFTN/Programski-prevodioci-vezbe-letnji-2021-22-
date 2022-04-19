@@ -1,19 +1,13 @@
-//OPIS: blokovske promenljive 
-
+//OPIS: ispravan test
 int main(){
-	int a; 
-	int b; 
-	int c;
-	
-	{
-		int a; 
-		int b; 
-		a = 1; 
-		b = 2; 
-		c = a + b; 
-	}
-	b = c;
-	a = b; 
-	return a; 
-
+  int x;
+  int y;
+  y=0;
+  
+  branch ( x ; 1 , 3 , 5 ) 
+        do_start x = x + 1; do_end
+        do_start x = x + 3; do_end
+        do_start x = x + 5; do_end
+        
+  return y;
 }

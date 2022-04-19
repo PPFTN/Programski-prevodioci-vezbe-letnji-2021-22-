@@ -1,11 +1,11 @@
-//OPIS: branch tipovima koji se ne poklapaju
-int main() {
-    int a;
-    branch ( h ; 1 , 3u , 5 ) 
-        first a = a + 1;
-        second a = a + 3;
-        third a = a + 5;
-        otherwise a = a - 3;
+//OPIS: inc nad funkcijom
+int f(){
+	int a;
+	a = 3;
 }
 
-  
+
+int main(){
+	f++;
+	return 0;
+}
